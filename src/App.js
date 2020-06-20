@@ -3,6 +3,7 @@ import CardList from './CardList';
 import SearchBox from './SearchBox';
 import './App.css'
 import Scroll from './Scroll';
+import TextBox from './TextBox';
 
 class App extends Component {
 
@@ -24,6 +25,10 @@ onSearchChange = (event) => {
 		this.setState({searchField: event.target.value})
 }
 
+onFormSubmit = (event) => {
+	this.setState({robots: ['11','ram','abc@mycomp.com']})
+}
+
 render() {
 
 	const { robots, searchField } = this.state;
@@ -38,6 +43,8 @@ render() {
 		return (
 			<div className='washed-red tc'>
 				<h1>Super Funny Robos</h1>
+				<h1>Welcome to the world of funny and stylish robos!</h1>
+				<TextBox handleSubmit={this.onFormSubmit} />
 				<SearchBox searchChange={this.onSearchChange}/>
 				<Scroll>
 	  			<CardList robots={filterRobot}/>
