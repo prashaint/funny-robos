@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/funny-robos/static/css/main.171b34c9.chunk.css",
+    "main.js": "/funny-robos/static/js/main.82eceeaa.chunk.js",
+    "main.js.map": "/funny-robos/static/js/main.82eceeaa.chunk.js.map",
+    "runtime-main.js": "/funny-robos/static/js/runtime-main.9d066b07.js",
+    "runtime-main.js.map": "/funny-robos/static/js/runtime-main.9d066b07.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/funny-robos/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.383c4612.chunk.js": "/funny-robos/static/js/2.383c4612.chunk.js",
+    "static/js/2.383c4612.chunk.js.map": "/funny-robos/static/js/2.383c4612.chunk.js.map",
+    "index.html": "/funny-robos/index.html",
+    "precache-manifest.53ac7a14a933f8a244e5e9905bbba5e0.js": "/funny-robos/precache-manifest.53ac7a14a933f8a244e5e9905bbba5e0.js",
+    "service-worker.js": "/funny-robos/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/funny-robos/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.171b34c9.chunk.css.map": "/funny-robos/static/css/main.171b34c9.chunk.css.map",
+    "static/js/2.383c4612.chunk.js.LICENSE.txt": "/funny-robos/static/js/2.383c4612.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/funny-robos/static/media/Lobster-Regular.ea3d6065.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d066b07.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.383c4612.chunk.js",
+    "static/css/main.171b34c9.chunk.css",
+    "static/js/main.82eceeaa.chunk.js"
+  ]
+}
