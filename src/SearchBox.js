@@ -3,13 +3,13 @@ import React from 'react';
 const SearchBox = ({searchField, searchChange}) => {
 
 	return (
-		<div className='pa2'>
-		<h1>Search your favourites robos here!</h1>
-		<input className='pa3 bs4 br4 b--purple bg-light-blue'
+		<div className='bg-light-green dark-gray tc dib pa2 br4 ma2 grow bw4 shadow-5 cardGradient'>
+		<h2>Search your favourites robo family member here!</h2>
+		<h2><input className='pa2 bs4 br4 b--purple bg-light-blue dark-blue'
 			   name='SearchBox' 
 			   type='search' 
-			   placeholder='Search robo by name' 
-			   onChange={searchChange}/>
+			   placeholder='Enter robo name to search' 
+			   onChange={searchChange}/></h2>
 		</div>
 
 	);
